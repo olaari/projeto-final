@@ -3,6 +3,7 @@ div.main {
   height: 500px;
   background-color: #b0d3f1;
   position: relative;
+  margin-bottom: 2rem;
 }
 
 div.background {
@@ -40,14 +41,23 @@ img.icone-info {
 }
 
 div.sobre {
-  padding: 2rem;
+  padding: 1rem 0;
   margin: 0 auto;
-  width: 50%;
+  width: 70%;
   text-align: justify;
 }
 
-div.sobre > h3 {
-  margin-top: 2rem;
+h1,
+h2,
+h3 {
+  margin-bottom: 1rem;
+  color: white;
+  background-color: #b0d3f1;
+  padding-left: 1rem;
+}
+
+h3 {
+  margin: 2rem 0 1rem;
 }
 
 .imagens-saudaveis {
@@ -83,4 +93,44 @@ div.sobre > h3 {
 .imagem-pao-de-queijo {
   background: url("../../assets/pao-de-queijo.png") no-repeat center;
   background-size: contain;
+}
+
+.container-guia {
+  padding: 1rem 0;
+  margin: 0 auto;
+  width: 70%;
+  text-align: justify;
+}
+
+.guia-alimentar {
+  display: flex;
+  flex-direction: row;
+}
+
+.imagem-guia {
+  background: url("https://www.fsp.usp.br/nupens/wp-content/uploads/2019/07/Screen-Shot-2019-07-04-at-15.52.25-1-360x468.png")
+    no-repeat center;
+  background-size: contain;
+  width: 100rem;
+  margin: 0 2rem;
+}
+
+.dez-passos {
+  padding: 2rem 4rem;
+  margin: 4rem auto 3rem;
+  width: 60%;
+  text-align: justify;
+  background-color: #e0a546;
+  border-radius: 60px;
+  color: white;
+}
+
+.dez-passos > h2 {
+  margin-bottom: 1rem;
+  color: inherit;
+  background-color: inherit;
+}
+
+.dez-passos > ul > li + li {
+  margin-top: 0.4rem;
 }
