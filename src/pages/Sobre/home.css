@@ -76,23 +76,20 @@ h3 {
   max-width: 155px;
   background-color: #b0d3f1;
   border-radius: 20px;
+  background-size: contain;
 }
 
 .imagem-prato-feito {
   background: url("../../assets/prato-feito.png") no-repeat center;
-  background-size: contain;
 }
 .imagem-pizza {
   background: url("../../assets/pizza.png") no-repeat center;
-  background-size: contain;
 }
 .imagem-frutas {
   background: url("../../assets/frutas.png") no-repeat center;
-  background-size: contain;
 }
 .imagem-pao-de-queijo {
   background: url("../../assets/pao-de-queijo.png") no-repeat center;
-  background-size: contain;
 }
 
 .container-guia {
