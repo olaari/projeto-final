@@ -49,13 +49,14 @@ div.sobre {
   text-align: justify;
 }
 
-h1,
-h2,
-h3 {
+.sobre>h1,
+.sobre>h2,
+.sobre>h3,
+.container-guia>h3 {
   margin-bottom: 1rem;
   color: white;
   background-color: #b0d3f1;
-  padding: 1rem;
+  padding-left: 1rem;
 }
 
 h3 {
@@ -79,6 +80,7 @@ h3 {
   background-color: #b0d3f1;
   border-radius: 20px;
   background-size: contain;
+
 }
 
 .imagem-prato-feito {

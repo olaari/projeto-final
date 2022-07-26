@@ -23,7 +23,8 @@ function Home() {
         <p>
           Você já foi no mercado e comprou produtos achando que era saudável,
           mas no final descobriu que nao era? Você sabe o que é uma alimentação
-          saúdavel? Conhece o guia alimentar? Esse site é para Você que quer
+          saúdavel? Conhece o guia alimentar?<br />
+          <br /> Esse site é para você que quer
           aprender a ter uma alimentação equilibrada de modo simples e sem
           modismos.
           <br />
@@ -60,7 +61,6 @@ function Home() {
             Ele pode ser dividido em 5 partes: princípios, a escolha dos alimentos, a refeição, o ato de comer e a comensalidade e a compreensão e a superação de obstáculos. <br />
             <br /> A leitura do guia é super simples e rápida e é muito recomendada principalmente para aquelas pessoas que querem se alimentar melhor. Também traz a classificação NOVA dos alimentos a partir da qualidade e grau de processamento deles, que é o conteúdo principal deste site.
             Além disso, o guia alimentar também traz os 10 passos de como ter uma alimentação saudável.
-
           </p>
           <div className="imagem-guia"></div>
         </div>
