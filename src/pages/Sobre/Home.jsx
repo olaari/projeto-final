@@ -35,37 +35,32 @@ function Home() {
 
         <h3>O que é alimentação saudável?</h3>
         <p>
-          Alimentação saúdavel nao é aquela onde a pessoa come apenas salada e
-          frutas, mas é aquela que a pessoa pode comer de tudo um pouco, seja,
-          pizza, hambuerguer, legumes, etc. Além disso, é aquela que envolve
-          diversos fatores, como a cultura, o que a pessoa gosta de comer, o
-          conhecimento que as pessoas possuem sobre nutricao, enfim de tudo um
-          pouquinho.
+          Alimentação saudável é aquela que vai além da ingestão de todos os nutrientes necessários para o bom funcionamento do corpo. Ela pode envolver a combinação dos ingredientes, o preparo dos alimentos, a cultura, os hábitos alimentares e as preferências dos indivíduos, a higiene dos alimentos, enfim,não é uma alimentação apenas restrita a legumes e frutas, mas é aquela que pode comer de tudo um pouquinho com moderação.
+          <br />
+          <br /> A ingestão de nutrientes pode auxiliar na promoção da saúde e na prevenção de doenças principalmente quando combinados entre si.E essa combinação pode ser feita através do preparo dos alimentos e o modo particular que cada pessoa irá comê-los, trazendo em si suas particularidades, como hábitos e tradições.
+        </p>
+
+        <div className="imagens-saudaveis">
+          <div className="imagem-prato-feito"></div>
+          <div className="imagem-pizza"></div>
+          <div className="imagem-frutas"></div>
+          <div className="imagem-pao-de-queijo"></div>
+        </div>
+
+        <p className="main">Padrões de alimentação e comportamentos também podem influenciar na alimentação como comer sozinho ou acompanhado, assistindo TV ou comer sentado à mesa, mastigação rápida ou lenta tudo isso pode influenciar o modo como você come, qual tipo de alimento é escolhido para determinada refeição e também a quantidade a ser ingerida.
         </p>
       </div>
 
-      <div className="imagens-saudaveis">
-        <div className="imagem-prato-feito"></div>
-        <div className="imagem-pizza"></div>
-        <div className="imagem-frutas"></div>
-        <div className="imagem-pao-de-queijo"></div>
-      </div>
-
       <div className="container-guia">
-        <h3>Você já ouviu falar sobre o guia alimenar?</h3>
+        <h3>Você já ouviu falar sobre o guia alimentar?</h3>
         <div className="guia-alimentar">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-            tempora impedit voluptatem debitis a illum veritatis optio at minima
-            excepturi enim nesciunt delectus, cumque blanditiis soluta aperiam
-            sunt accusantium. Ipsum. Nostrum sequi iusto autem vel praesentium
-            labore! Consequatur beatae accusantium architecto quia incidunt quae
-            facilis, ullam distinctio exercitationem aut dolorum dolores fuga
-            officia cum nisi odit pariatur veritatis soluta amet. Maxime
-            provident nobis, rerum deleniti rem pariatur accusantium inventore
-            dolorum. Ratione impedit ipsum, fuga eius, natus ex doloribus ipsam
-            incidunt esse maiores, harum aperiam earum aspernatur voluptatum!
-            Saepe, deleniti obcaecati.
+            O guia alimentar é um documento criado pelo Ministério da Saúde e publicado em 2014 que esclarece o que é uma “alimentação adequada e saudável” e mostra o caminho para cada indivíduo adotar escolhas alimentares mais apropriadas, considerando particularidades regionais, etárias, culturais, sociais, econômicas e biológicas.  Com isso, espera-se melhorar os padrões de alimentação e nutrição e contribuir para a promoção da saúde da população. <br />
+            <br /> O guia propõe que os indivíduos tenham um bom relacionamento com a comida através da autonomia alimentar que é o poder de escolhas dos alimentos a partir desse documento e dos conhecimentos adquiridos ao longo da vida.
+            Ele pode ser dividido em 5 partes: princípios, a escolha dos alimentos, a refeição, o ato de comer e a comensalidade e a compreensão e a superação de obstáculos. <br />
+            <br /> A leitura do guia é super simples e rápida e é muito recomendada principalmente para aquelas pessoas que querem se alimentar melhor. Também traz a classificação NOVA dos alimentos a partir da qualidade e grau de processamento deles, que é o conteúdo principal deste site.
+            Além disso, o guia alimentar também traz os 10 passos de como ter uma alimentação saudável.
+
           </p>
           <div className="imagem-guia"></div>
         </div>
