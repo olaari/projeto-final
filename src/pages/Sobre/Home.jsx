@@ -3,10 +3,6 @@ import "./home.css";
 import iconeAlimento from "../../assets/icone-alimento.png";
 import iconeGlutenFree from "../../assets/icone-gluten-free.png";
 import iconeInfo from "../../assets/icone-info.png";
-import pizza from "../../assets/pizza.png";
-import frutas from "../../assets/frutas.png";
-import pratoFeito from "../../assets/prato-feito.png";
-import paoDeQueijo from "../../assets/pao-de-queijo.png";
 
 function Home() {
   return (
@@ -40,21 +36,21 @@ function Home() {
           <br />
           <br /> A ingestão de nutrientes pode auxiliar na promoção da saúde e na prevenção de doenças principalmente quando combinados entre si.E essa combinação pode ser feita através do preparo dos alimentos e o modo particular que cada pessoa irá comê-los, trazendo em si suas particularidades, como hábitos e tradições.
         </p>
-
-        <div className="imagens-saudaveis">
-          <div className="imagem-prato-feito"></div>
-          <div className="imagem-pizza"></div>
-          <div className="imagem-frutas"></div>
-          <div className="imagem-pao-de-queijo"></div>
-        </div>
-
-        <p className="main">Padrões de alimentação e comportamentos também podem influenciar na alimentação como comer sozinho ou acompanhado, assistindo TV ou comer sentado à mesa, mastigação rápida ou lenta tudo isso pode influenciar o modo como você come, qual tipo de alimento é escolhido para determinada refeição e também a quantidade a ser ingerida.
-        </p>
+      </div>
+      <div className="imagens-saudaveis">
+        <div className="imagem-prato-feito"></div>
+        <div className="imagem-pizza"></div>
+        <div className="imagem-frutas"></div>
+        <div className="imagem-pao-de-queijo"></div>
+      </div>
+      <div className='sobre'>
+        <p>Padrões de alimentação e comportamentos também podem influenciar na alimentação como comer sozinho ou acompanhado, assistindo TV ou comer sentado à mesa, mastigação rápida ou lenta tudo isso pode influenciar o modo como você come, qual tipo de alimento é escolhido para determinada refeição e também a quantidade a ser ingerida. </p>
       </div>
 
       <div className="container-guia">
         <h3>Você já ouviu falar sobre o guia alimentar?</h3>
         <div className="guia-alimentar">
+          <div className="imagem-guia"></div>
           <p>
             O guia alimentar é um documento criado pelo Ministério da Saúde e publicado em 2014 que esclarece o que é uma “alimentação adequada e saudável” e mostra o caminho para cada indivíduo adotar escolhas alimentares mais apropriadas, considerando particularidades regionais, etárias, culturais, sociais, econômicas e biológicas.  Com isso, espera-se melhorar os padrões de alimentação e nutrição e contribuir para a promoção da saúde da população. <br />
             <br /> O guia propõe que os indivíduos tenham um bom relacionamento com a comida através da autonomia alimentar que é o poder de escolhas dos alimentos a partir desse documento e dos conhecimentos adquiridos ao longo da vida.
@@ -62,7 +58,6 @@ function Home() {
             <br /> A leitura do guia é super simples e rápida e é muito recomendada principalmente para aquelas pessoas que querem se alimentar melhor. Também traz a classificação NOVA dos alimentos a partir da qualidade e grau de processamento deles, que é o conteúdo principal deste site.
             Além disso, o guia alimentar também traz os 10 passos de como ter uma alimentação saudável.
           </p>
-          <div className="imagem-guia"></div>
         </div>
       </div>
 
