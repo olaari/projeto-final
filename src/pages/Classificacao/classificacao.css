@@ -28,3 +28,31 @@ img.rotulo-alimento {
     bottom: 0;
     align-items: center;
 }
+
+.main-classificacao {
+    padding: 1rem 0;
+    margin: 0 auto;
+    width: 80%;
+    text-align: justify;
+}
+
+.main-classificacao>h1 {
+    margin-bottom: 1rem;
+    color: white;
+    background-color: #b0d3f1;
+    padding-left: 1rem;
+}
+
+.lista-alimentos{
+    margin: 2rem;
+}
+
+.categorias-alimentos{
+    margin: 0 auto 1rem;
+    padding: 1rem;
+    width: 70%;
+    border-radius: 10px;
+    color: white;
+    background-color: #e0a546;
+   
+}
