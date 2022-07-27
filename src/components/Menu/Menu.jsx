@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./menu.css";
+import logo from "../../assets/logo.png"
 
 function Menu() {
   return (
