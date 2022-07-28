@@ -17,8 +17,8 @@ function Menu() {
           </Link>
         </li>
         <li className="item">
-          <Link className="link" to="/quiz">
-            Quiz
+          <Link className="link" to="/rotulos">
+            Rótulos
           </Link>
         </li>
         <li className="item">
