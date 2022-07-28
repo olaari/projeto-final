@@ -10,7 +10,6 @@ div.background-classificacao {
   background: url("../../assets/background-classificacao.png") no-repeat center;
   background-size: contain;
   height: 40%;
-  /* https://stackoverflow.com/a/18200048 */
   margin: auto;
   position: absolute;
   top: 0;
@@ -55,7 +54,7 @@ div.lista-alimentos {
 
 .caixa-alimentos>h3,
 h4 {
-  text-align: center; 
+  text-align: center;
 }
 
 .caixa-alimentos>h4 {
