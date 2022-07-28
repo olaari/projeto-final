@@ -4,7 +4,7 @@ import rotuloAlimento from '../../assets/rotulo-alimento.png';
 import frutasInNatura from '../../assets/frutas-in-natura.png'
 import ovosInNatura from '../../assets/ovos-in-natura.png'
 import saladaInNatura from '../../assets/salada-in-natura.png'
-import cafe from '../../assets/cafe.png'
+import cafe from '../../assets/Cafe.png'
 import leite from '../../assets/leite.png'
 import manga from '../../assets/manga.png'
 import manteiga from '../../assets/manteiga.png'
