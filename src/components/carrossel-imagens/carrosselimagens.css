@@ -1,0 +1,26 @@
+.carrossel {
+    width: 22%;
+    margin: 0 auto;
+    max-width: 155px;
+    background-color: #b0d3f1;
+    border-radius: 20px;
+    background-size: contain;
+    height: 0;
+    padding-bottom: 20%;
+}
+
+.carrossel>div {
+    width: 22%;
+    margin: 0 auto;
+    max-width: 155px;
+    background-color: #b0d3f1;
+    border-radius: 20px;
+    background-size: contain;
+    height: 0;
+    padding-bottom: 20%;
+}
+
+.carrossel>img {
+    background: no-repeat;
+    width: 10rem;
+}

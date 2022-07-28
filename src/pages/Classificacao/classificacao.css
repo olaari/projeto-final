@@ -1,58 +1,134 @@
 div.main {
-    width: 100%;
-    height: 500px;
-    background-color: #b0d3f1;
-    position: relative;
-    margin-bottom: 2rem;
+  width: 100%;
+  height: 500px;
+  background-color: #b0d3f1;
+  position: relative;
+  margin-bottom: 2rem;
 }
 
 div.background-classificacao {
-    background: url("../../assets/background-classificacao.png") no-repeat center;
-    background-size: contain;
-    height: 40%;
-    /* https://stackoverflow.com/a/18200048 */
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 30%;
-    right: 0;
+  background: url("../../assets/background-classificacao.png") no-repeat center;
+  background-size: contain;
+  height: 40%;
+  /* https://stackoverflow.com/a/18200048 */
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 30%;
+  right: 0;
 }
-
 
 img.rotulo-alimento {
-    height: 40%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    bottom: 0;
-    align-items: center;
+  height: 40%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  align-items: center;
 }
 
-.main-classificacao {
-    padding: 1rem 0;
-    margin: 0 auto;
-    width: 80%;
-    text-align: justify;
+div.main-classificacao {
+  padding: 1rem 0;
+  margin: 0 auto;
+  width: 80%;
+  text-align: justify;
 }
 
-.main-classificacao>h1 {
-    margin-bottom: 1rem;
-    color: white;
-    background-color: #b0d3f1;
-    padding-left: 1rem;
+div.main-classificacao>h1 {
+  margin-bottom: 1rem;
+  color: white;
+  background-color: #b0d3f1;
+  padding-left: 1rem;
 }
 
-.lista-alimentos{
-    margin: 2rem;
+div.lista-alimentos {
+  margin: 2rem;
 }
 
-.categorias-alimentos{
-    margin: 0 auto 1rem;
-    padding: 1rem;
-    width: 70%;
-    border-radius: 10px;
-    color: white;
-    background-color: #e0a546;
-   
+.caixa-alimentos {
+  border: 2px dashed #e0a546;
+  padding: 1rem;
+  margin: 1.5rem;
+
+}
+
+.imagens-tipo-alimentos {
+  width: 100%;
+  max-width: 755px;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.imagens-tipo-alimentos>div {
+  width: 22%;
+  margin: 0 auto;
+  max-width: 155px;
+  background-color: #b0d3f1;
+  border-radius: 20px;
+  background-size: contain;
+  height: 0;
+  padding-bottom: 20%;
+}
+
+.frutas-in-natura {
+  background: url("../../assets/frutas-in-natura.png") no-repeat center;
+}
+
+.ovos-in-natura {
+  background: url("../../assets/ovos-in-natura.png") no-repeat center;
+}
+
+.salada-in-natura {
+  background: url("../../assets/salada-in-natura.png") no-repeat center;
+}
+
+.cafe {
+  background: url("../../assets/Cafe.png") no-repeat center;
+}
+
+.leite {
+  background: url("../../assets/leite.png") no-repeat center;
+}
+
+.manga {
+  background: url("../../assets/manga.png") no-repeat center;
+}
+
+.manteiga {
+  background: url("../../assets/manteiga.png") no-repeat center;
+}
+
+.oleo {
+  background: url("../../assets/oleo.png") no-repeat center;
+}
+
+.acucar {
+  background: url("../../assets/acucar.png") no-repeat center;
+}
+
+.pao {
+  background: url("../../assets/pao.png") no-repeat center;
+}
+
+.conservas {
+  background: url("../../assets/conservas.png") no-repeat center;
+}
+
+.enlatados {
+  background: url("../../assets/enlatados.png") no-repeat center;
+}
+
+.refrigerante {
+  background: url("../../assets/refrigerante.png") no-repeat center;
+}
+
+.salgadinho {
+  background: url("../../assets/salgadinho.png") no-repeat center;
+}
+
+.bolacha-recheada {
+  background: url("../../assets/bolacha-recheada.png") no-repeat center;
 }

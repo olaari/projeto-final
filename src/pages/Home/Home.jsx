@@ -3,6 +3,8 @@ import "./home.css";
 import iconeAlimento from "../../assets/icone-alimento.png";
 import iconeGlutenFree from "../../assets/icone-gluten-free.png";
 import iconeInfo from "../../assets/icone-info.png";
+import background from "../../assets/background.png";
+
 
 function Home() {
   return (
