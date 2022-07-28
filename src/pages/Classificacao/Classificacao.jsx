@@ -31,7 +31,7 @@ function Classificacao() {
                     ingredientes culinários processados; alimentos processados; alimentos
                     ultraprocessados.</p>
                 <div className="caixa-alimentos">
-                    <h3>Alimentos in natura e minimamente processados</h3>
+                    <h3>ALIMENTOS IN NATURA E MINIMMENTE PROCESSADOS</h3>
                     <p>Os alimentos in natura são obtidos na sua forma natural, diretamente de plantas ou de animais, e não sofrem
                         qualquer alteração após deixar a natureza, como adição de sódio, conservantes, aromatizantes. Alguns exemplos são:
                         frutas, verduras, legumes, ovos, raizes, tuberculos, carnes, etc.</p>
@@ -54,7 +54,7 @@ function Classificacao() {
                     <h4>A combinação dos alimentos desse grupo representam a base para uma alimentação adequada.</h4>
                 </div>
                 <div className="caixa-alimentos">
-                    <h3>Óleos, gorduras, sal e açúcar</h3>
+                    <h3>ÓLEOS, GORDURAS, SAL E AÇÚCAR</h3>
                     <p>São produtos extraídos de alimentos in natura ou da natureza por processos, como
                         prensagem, moagem, trituração, pulverização e refino. São utilizados para temperar ou
                         cozinhar alimentos e para criar preparações culinárias variadas. Alguns exemplos são: óleos vegetais(girasol, canola, milho), manteiga, banha de porco, açúcar, sal</p>
@@ -67,7 +67,7 @@ function Classificacao() {
                     <h4> Por isso, esses alimentos devem ser utilizados com moderação!</h4>
                 </div>
                 <div className="caixa-alimentos">
-                    <h3>Alimentos processados</h3>
+                    <h3>ALIMENTOS PROCESSADOS</h3>
                     <p>São alimentos in natura ou minimamente processados com a adição de um ingrediente
                         culinário, como sal, açúcar, óleo ou gordura com objetivo de aumentar a durabilidade desses alimentos e torna-los mais agradáveis ao paladar. Seu processo de fabricação se assemelham as técnicas culinárias. Geralmente são fabricados pela
                         indústria e usualmente consumidos como parte ou acompanhamento de preparações.
@@ -81,7 +81,7 @@ function Classificacao() {
                     <h4>Os alimentetos processados devem ser utilizados com moderação e devem ser consumidos como acompanhamentos dos alimentos in natura e não substítui-los. </h4>
                 </div>
                 <div className="caixa-alimentos">
-                    <h3>Alimentos ultraprocessados</h3>
+                    <h3>ALIMENTOS ULTRAPROCESSADOS</h3>
                     <p>São alimentos que passam por diversos processos industriais, com adição de sal, açúcar e gorduras para intensificação do sabor, mascarar o gosto dos adivivos químicos e para aumentar a durabilidade do tempo de prateleira, além disso recebem grandes quantidades de substâncias que foram sintetizadas em
                         laboratórios como corantes, aromatizantes e realçadores de sabores. A fabricação desses produtos geralmente é realizada por grandes indústrias. Devido a sua formulação, esses alimentos constumam ser consumidos em excesso e tendem a substituir os alimentosa in natura e minimamente processados.</p>
                     <CarrosselImagens images={[
