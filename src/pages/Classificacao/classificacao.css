@@ -53,82 +53,21 @@ div.lista-alimentos {
 
 }
 
-.imagens-tipo-alimentos {
-  width: 100%;
-  max-width: 755px;
-  margin: 1rem auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.caixa-alimentos>h3,
+h4 {
+  text-align: center; 
 }
 
-.imagens-tipo-alimentos>div {
-  width: 22%;
-  margin: 0 auto;
-  max-width: 155px;
-  background-color: #b0d3f1;
-  border-radius: 20px;
-  background-size: contain;
-  height: 0;
-  padding-bottom: 20%;
+.caixa-alimentos>h4 {
+  background-color: #e0a546;
+  margin: 1rem;
 }
 
-.frutas-in-natura {
-  background: url("../../assets/frutas-in-natura.png") no-repeat center;
-}
+@media screen and (max-width:610px) {
 
-.ovos-in-natura {
-  background: url("../../assets/ovos-in-natura.png") no-repeat center;
-}
+  .titulo-classificacao,
+  .titulo-quiz {
+    font-size: 1.5rem;
+  }
 
-.salada-in-natura {
-  background: url("../../assets/salada-in-natura.png") no-repeat center;
-}
-
-.cafe {
-  background: url("../../assets/Cafe.png") no-repeat center;
-}
-
-.leite {
-  background: url("../../assets/leite.png") no-repeat center;
-}
-
-.manga {
-  background: url("../../assets/manga.png") no-repeat center;
-}
-
-.manteiga {
-  background: url("../../assets/manteiga.png") no-repeat center;
-}
-
-.oleo {
-  background: url("../../assets/oleo.png") no-repeat center;
-}
-
-.acucar {
-  background: url("../../assets/acucar.png") no-repeat center;
-}
-
-.pao {
-  background: url("../../assets/pao.png") no-repeat center;
-}
-
-.conservas {
-  background: url("../../assets/conservas.png") no-repeat center;
-}
-
-.enlatados {
-  background: url("../../assets/enlatados.png") no-repeat center;
-}
-
-.refrigerante {
-  background: url("../../assets/refrigerante.png") no-repeat center;
-}
-
-.salgadinho {
-  background: url("../../assets/salgadinho.png") no-repeat center;
-}
-
-.bolacha-recheada {
-  background: url("../../assets/bolacha-recheada.png") no-repeat center;
 }
