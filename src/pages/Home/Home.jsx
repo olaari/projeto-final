@@ -70,33 +70,33 @@ function Home() {
         <ul>
           <li>
             Fazer de alimentos in natura ou minimamente processados a base da
-            alimentação
+            alimentação.
           </li>
           <li>
             Fazer de alimentos in natura ou minimamente processados a base da
-            alimentação
+            alimentação.
           </li>
           <li>
             Utilizar óleos gorduras, sal e açúcar em pequenas quantidades ao
-            tempera e cozinhas alimentos e criar preparações culinárias
+            tempera e cozinhas alimentos e criar preparações culinárias.
           </li>
-          <li> Limitar o consumo de alimentos ultraprocessados</li>
-          <li> Evitar o consumo de alimentos ultraprocessados</li>
+          <li> Limitar o consumo de alimentos ultraprocessados.</li>
+          <li> Evitar o consumo de alimentos ultraprocessados.</li>
           <li>
             Comer com regularidade e atenção, em ambientes apropriados e, sempre
-            que possível, com companhia{" "}
+            que possível, com companhia.
           </li>
           <li>
             Fazer compras em locais que ofertem variedades de alimentos in
-            natura ou natura ou minimamente processados
+            natura ou natura ou minimamente processados.
           </li>
           <li> Desenvolver, exercicitar e partilhar habilidades culinárias</li>
           <li>
-            Panejar o uso do tempo para dar alimentação o espaço que ela merece
+            Panejar o uso do tempo para dar alimentação o espaço que ela merece.
           </li>
           <li>
             Dar preferência quando fora de casa, a locais que servem refeições
-            feitas na hora
+            feitas na hora.
           </li>
           <li>
             Ser crítico quanto a informações, orientações e mensagens sobre
