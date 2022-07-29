@@ -1,10 +1,5 @@
-.container-menu {
-  align-items: center;
-}
-
 .menu {
-  list-style-type: none;
-  margin: 0;
+  align-items: center;
   padding: 0;
   overflow: hidden;
   width: 80%;
@@ -14,7 +9,7 @@
   justify-content: center;
 }
 
-.item .link {
+.link {
   font-size: 1.3em;
   font-weight: 600;
   display: block;
@@ -34,8 +29,7 @@ textarea {
 }
 
 @media screen and (max-width:600px) {
-
-  .item .link {
+  .link {
     font-size: 0.8em;
     font-weight: 300;
     padding: 0.5rem 0.9rem;

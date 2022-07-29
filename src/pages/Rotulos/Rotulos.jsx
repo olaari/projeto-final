@@ -9,7 +9,7 @@ function Rotulos() {
                 <div className="background-rotulo"></div>
             </div>
 
-            <div className="main-rotulo">
+            <div className="main-rotulos">
                 <h1>Dicas para a leitura da lista de ingredientes dos alimentos</h1>
                 <p>Quando você vai ao mercado costuma ter a lista de alimento? Você sabe o que é lista de alimentos? Compara os alimentos de diferentes marcas?</p> <br />
 
@@ -25,16 +25,9 @@ function Rotulos() {
                     <p className="dicas-listas"> DICA: Se a lista de ingredientes for grande diminuia o consumo desse alimento e evite comprar e comer com tanta frequência.</p>
                     <p className="dicas-listas"> DICA: Compare o mesmo alimento de diferentes marcas. Muitas marcas possui diferentes formulações para um mesmo produto, muitas vezes um produto de uma é mais adequado nutricionalmente em relação ao outro.</p>
                     <p className="dicas-listas"> DICA: Comece a praticar a leitura de rótulo na sua casa, assim quando for comprar um produto e ler a lista de ingredientes fora de casa, a leitura será bem mais rápida.</p>
-                    <p className="dicas-listas"> DICA: Use o aplicativo <a className="link"href="https://desrotulando.com/">Desrotulando</a> , com esse app você consegue escanear o produto e através disso ele te da uma nota sobre esse alimento e fala sobre a qualidade dele. </p>
+                    <p className="dicas-listas"> DICA: Use o aplicativo <a className="link" href="https://desrotulando.com/">Desrotulando</a> , com esse app você consegue escanear o produto e através disso ele te da uma nota sobre esse alimento e fala sobre a qualidade dele. </p>
                     <p className="dicas-listas"> DICA: Tome cuidado com o marketing nutricional, muitos alimentos são vendidos como saúdaveis e ao ler a lista de alimentos é possível perceber que não são pois pela composição são ultraprocessados.</p>
-                    <p className="dicas-listas"> DICA: Cuidado com o açúcar invertido, ele está presente em várias formulações de alimentos, porém não deixa de ser mais um tipo de açúcar que em excesso pode levar ao desenvolvimento de doenças crônicas.</p>
-
-
-                </div>
-
-
-
-
+                    <p className="dicas-listas"> DICA: Cuidado com o açúcar invertido, ele está presente em várias formulações de alimentos, porém não deixa de ser mais um tipo de açúcar que em excesso pode levar ao desenvolvimento de doenças crônicas.</p></div>
             </div>
         </>
     )

@@ -29,14 +29,14 @@ div.background-rotulo {
 
 }
 
-div.main-rotulo {
+div.main-rotulos {
     padding: 1rem 0;
     margin: 0 auto;
     width: 80%;
     text-align: justify;
 }
 
-div.main-rotulo>h1 {
+div.main-rotulos>h1 {
     margin-bottom: 1rem;
     color: white;
     background-color: #b0d3f1;
@@ -56,7 +56,7 @@ div.main-rotulo>h1 {
 
 .exemplo-lista-ingredientes {
     background: url("https://br.openfoodfacts.org/images/products/789/608/086/2132/ingredients_pt.7.full.jpg") no-repeat center;
-    
+
 }
 
 .dicas-listas{

@@ -1,0 +1,35 @@
+[
+  {
+    "pergunta": "O milho na espiga é classificado como?",
+    "respostas": [
+      "Alimento in natura ou minimamente processado",
+      "Óleos, gorduras sal e açúcar",
+      "Alimento processado",
+      "Alimento ultraprocessado"
+    ],
+    "correta": "Alimento in natura ou minimamente processado",
+    "explicacao": ", pois não há adição de nenhum produto e da maneira que é colhida na natureza é comida nas refeições"
+  },
+  {
+    "pergunta": "Como é classificada a sardinha enlatada?",
+    "respostas": [
+      "Alimento in natura ou minimamente processado",
+      "Óleos, gorduras sal e açúcar",
+      "Alimento processado",
+      "Alimento ultraprocessado"
+    ],
+    "correta": "Alimento processado",
+    "explicacao": ", pois ocorre a adição de óleo para um maior tempo de conservação"
+  },
+  {
+    "pergunta": "A mistura pronta para bolo é classificada como?",
+    "respostas": [
+      "Alimento in natura ou minimamente processado",
+      "Óleos, gorduras, sal e açúcar",
+      "Alimento processado",
+      "Alimento ultraprocessado"
+    ],
+    "correta": "Alimento ultraprocessado",
+    "explicacao": ", pois há vários corantes e aditivos alimentares na composição do produto"
+  }
+]
