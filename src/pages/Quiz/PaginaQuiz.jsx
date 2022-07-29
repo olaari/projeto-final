@@ -1,5 +1,5 @@
 import { useState } from "react";
-import alimentosRotulos from "../../assets/alimentos-rotulos.png";
+import simboloQuiz from "../../assets/simbolo-quiz.png";
 import "./quiz.css";
 import quizzes from "./quiz.json";
 
@@ -94,11 +94,13 @@ function PaginaQuiz() {
 
   return (
     <>
-      <div className="main-background">
-        <img className="alimento-rotulos" src={alimentosRotulos}></img>
+      <div className="main-background-rotulos">
+        <img className="simbolo-quiz" src={simboloQuiz}></img>
         <div className="background-rotulo"></div>
       </div>
-
+      <div className="texto-quiz">
+        <p > Bora ver se você absorveu as informações dessa página. Esse quiz será composto por 3 questões e com 4 alternativas cada.</p>
+      </div>
       <div className="main-quiz">
         {numeroQuiz < quizzes.length ? (
           <Quiz quiz={quizzes[numeroQuiz]} />
