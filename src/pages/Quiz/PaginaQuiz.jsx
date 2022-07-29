@@ -4,6 +4,7 @@ import "./quiz.css";
 import quizzes from "./quiz.json";
 
 function PaginaQuiz() {
+
   const [numeroQuiz, setNumeroQuiz] = useState(0);
   const [acertos, setAcertos] = useState({});
   const [clicou, setClicou] = useState(false);

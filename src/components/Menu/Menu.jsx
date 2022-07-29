@@ -1,21 +1,19 @@
-import { Link } from 'react-router-dom';
-import './menu.css';
+import { Link } from "react-router-dom";
+import "./menu.css";
 
 function Menu() {
   return (
     <div className="menu">
-        {[
-          { rota: '/', nome: 'Home' },
-          { rota: '/classificacao', nome: 'Classificação' },
-          { rota: '/rotulos', nome: 'Rótulos' },
-          { rota: '/quizzes', nome: 'Quiz' },
-          { rota: '/contatos', nome: 'Contatos' },
-        ].map(
-          ({ rota, nome }) =>
-            <Link key={rota} className="link" to={rota}>
-              {nome}
-            </Link>
-        )}
+      {[
+        { rota: "/", nome: "Home" },
+        { rota: "/classificacao", nome: "Classificação" },
+        { rota: "/quiz", nome: "Quiz" },
+        { rota: "/contatos", nome: "Contatos" },
+      ].map(({ rota, nome }) => (
+        <Link key={rota} className="link" to={rota}>
+          {nome}
+        </Link>
+      ))}
     </div>
   );
 }

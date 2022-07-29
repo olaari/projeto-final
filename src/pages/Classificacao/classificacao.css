@@ -27,10 +27,11 @@ img.rotulo-alimento {
   align-items: center;
 }
 
-div.main-classificacao {
+div.main-classificacao,
+.main-rotulos {
   padding: 1rem 0;
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
   text-align: justify;
 }
 
@@ -62,11 +63,89 @@ h4 {
   margin: 1rem;
 }
 
+div.main-rotulos>h1 {
+  margin-bottom: 1rem;
+  color: white;
+  background-color: #b0d3f1;
+  padding-left: 1rem;
+
+}
+
+div.main-rotulos {
+  display: flex;
+  flex-direction: column;
+}
+
+.embalagem {
+  background-color: #b0d3f1;
+  padding: 1rem;
+  width: 20%;
+  border-radius: 10px;
+  margin: 1rem auto;
+}
+
+.embalagem>img {
+  width: 100%;
+}
+
+.lista-de-ingredientes {
+  border: 1px solid #54a4ea;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.exemplo-lista-ingredientes {
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 0.5rem auto;
+  width: 50%;
+  background-color: #b0d3f1;
+}
+
+.exemplo-lista-ingredientes>img {
+  width: 100%;
+}
+
+.dicas-listas {
+  background-color: #e0a546;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.link-dicas {
+  text-decoration: none;
+  color: #54a4ea;
+}
+
+
+
 @media screen and (max-width:610px) {
 
   .titulo-classificacao,
-  .titulo-quiz {
-    font-size: 1.5rem;
+  .main-rotulos>h1 {
+    font-size: 1.4rem;
   }
+
+}
+
+@media screen and (max-width:900px) {
+  .embalagem {
+    width: 70%;
+    padding: 0.2rem;
+  }
+}
+
+@media screen and (max-width:900px) {
+
+  .exemplo-lista-ingredientes {
+    width: 100%;
+    padding: 0.5rem;
+    margin-right: 1rem;
+  }
+
 
 }
