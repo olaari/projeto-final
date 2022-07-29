@@ -28,16 +28,51 @@ div.background-rotulo {
     position: absolute;
 
 }
+
 div.main-rotulo {
     padding: 1rem 0;
     margin: 0 auto;
     width: 80%;
     text-align: justify;
-  }
+}
 
 div.main-rotulo>h1 {
     margin-bottom: 1rem;
     color: white;
     background-color: #b0d3f1;
     padding-left: 1rem;
-  }
+}
+
+.lista-de-ingredientes {
+    border: 1px solid #54a4ea;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.exemplo-lista-ingredientes {
+    background: url("https://br.openfoodfacts.org/images/products/789/608/086/2132/ingredients_pt.7.full.jpg") no-repeat center;
+    
+}
+
+.dicas-listas{
+    background-color: #e0a546;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.link:hover {
+    color: #54a4ea;
+    text-decoration: none;
+}
+
+.link {
+    color: #54a4ea;
+    text-decoration: none;
+
+}

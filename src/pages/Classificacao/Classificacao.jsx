@@ -95,7 +95,7 @@ function Classificacao() {
 
 
                 <h1 className='titulo-quiz'>Quiz dos Alimentos</h1>
-<p>Bora ver se você absorveu as informações dessa página? Esse quiz será composto de 4 questões e com 4 alternativas cada. Tenho</p>
+                <p>Bora ver se você absorveu as informações dessa página? Esse quiz será composto de 4 questões e com 4 alternativas cada. Tenho</p>
             </div>
         </>
     )
