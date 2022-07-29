@@ -234,7 +234,7 @@ function Classificacao() {
           </p>
           <p className="dicas-listas">
             {" "}
-            DICA: Use o aplicativo <a className="link-dicas" href="https://desrotulando.com/">Desrotulando</a>,
+            DICA: Use o aplicativo <a className="link-dicas" href="https://desrotulando.com/" target="blank">Desrotulando</a>,
              com esse app você consegue escanear o produto e através disso ele
             te da uma nota sobre esse alimento.{" "}
           </p>
