@@ -9,12 +9,12 @@
   justify-content: center;
 }
 
-.link {
+.menu > .link {
   font-size: 1.3em;
   font-weight: 600;
   display: block;
   text-align: center;
-  padding: 1rem 1.5rem;
+  padding: 1rem 2%;
   text-decoration: none;
   color: #57a0e1;
 }
@@ -28,10 +28,12 @@ textarea {
   box-sizing: border-box;
 }
 
-@media screen and (max-width:600px) {
-  .link {
-    font-size: 0.8em;
+@media screen and (max-width: 700px) {
+  .menu {
+    width: 100%;
+  }
+  .menu > .link {
+    font-size: 1em;
     font-weight: 300;
-    padding: 0.5rem 0.9rem;
   }
 }

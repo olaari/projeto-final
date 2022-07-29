@@ -14,8 +14,9 @@ function Menu() {
           {nome}
         </Link>
       ))}
+
     </div>
-  );
+  )
 }
 
-export default Menu;
+export default Menu
