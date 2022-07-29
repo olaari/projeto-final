@@ -66,13 +66,12 @@ div.main-rotulos>h1 {
     padding: 1rem;
 }
 
-.link:hover {
+.dicas-listas>.link:hover {
     color: #54a4ea;
     text-decoration: none;
 }
 
-.link {
+.dicas-listas>.link {
     color: #54a4ea;
     text-decoration: none;
-
 }

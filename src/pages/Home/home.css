@@ -141,3 +141,19 @@ h3 {
 .dez-passos>ul>li+li {
   margin-top: 0.4rem;
 }
+
+@media screen and (max-width: 450px) {
+ .dez-passos {
+   padding: 2rem 3.5rem;
+ }
+}
+@media screen and (max-width: 350px) {
+ .dez-passos {
+   padding: 2rem 3rem;
+ }
+}
+@media screen and (max-width: 300px) {
+ .dez-passos {
+   padding: 2rem 2.5rem;
+ }
+}

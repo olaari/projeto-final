@@ -8,7 +8,7 @@ function Menu() {
           { rota: '/', nome: 'Home' },
           { rota: '/classificacao', nome: 'Classificação' },
           { rota: '/rotulos', nome: 'Rótulos' },
-          { rota: '/quizzes', nome: 'Quiz' },
+          { rota: '/quiz', nome: 'Quiz' },
           { rota: '/contatos', nome: 'Contatos' },
         ].map(
           ({ rota, nome }) =>
