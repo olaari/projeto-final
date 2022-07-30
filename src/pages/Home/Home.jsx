@@ -17,23 +17,22 @@ function Home() {
         <h2>Sobre</h2>
         <p>
           Você já foi no mercado e comprou produtos achando que era saudável,
-          mas no final descobriu que nao era? Você sabe o que é uma alimentação
-          saúdavel? Conhece o guia alimentar?<br />
+          mas no final descobriu que não era? Você sabe o que é uma alimentação
+          saudável? Conhece o guia alimentar?<br />
           <br /> Esse site é para você que quer
           aprender a ter uma alimentação equilibrada de modo simples e sem
           modismos.
           <br />
           <br /> Essa página tem como principal objetivo ajudar a população a
-          ter uma maior autonomia na escolha alimentar, ou seja, a terem o
-          direito de escolher seus alimentos com base nas suas crenças,
-          sentimentos, comportamento e conhecimento básicos sobre nutrição.
+          ter uma maior autonomia na escolha dos seus alimentos com base nas suas crenças,
+          sentimentos, comportamentos e conhecimentos básicos sobre nutrição.
         </p>
 
         <h3>O que é alimentação saudável?</h3>
         <p>
-          Alimentação saudável é aquela que vai além da ingestão de todos os nutrientes necessários para o bom funcionamento do corpo. Ela pode envolver a combinação dos ingredientes, o preparo dos alimentos, a cultura, os hábitos alimentares e as preferências dos indivíduos, a higiene dos alimentos, enfim,não é uma alimentação apenas restrita a legumes e frutas, mas é aquela que pode comer de tudo um pouquinho com moderação.
+          Alimentação saudável é aquela que vai além da ingestão de todos os nutrientes necessários para o bom funcionamento do corpo, ela pode envolver a combinação dos ingredientes, o preparo dos alimentos, a cultura, os hábitos alimentares e as preferências dos indivíduos, a higiene dos alimentos, enfim, não é uma alimentação apenas restrita a legumes e frutas, mas é aquela que pode comer de tudo um pouquinho com moderação.
           <br />
-          <br /> A ingestão de nutrientes pode auxiliar na promoção da saúde e na prevenção de doenças principalmente quando combinados entre si.E essa combinação pode ser feita através do preparo dos alimentos e o modo particular que cada pessoa irá comê-los, trazendo em si suas particularidades, como hábitos e tradições.
+          <br /> A ingestão de nutrientes pode auxiliar na promoção da saúde e na prevenção de doenças, principalmente, quando combinados entre si. E essa combinação pode ser feita através do preparo dos alimentos e o modo particular que cada pessoa irá comê-los, trazendo em si suas particularidades, como hábitos e tradições.
         </p>
       </div>
       <div className="imagens-saudaveis">
@@ -43,7 +42,7 @@ function Home() {
         <div className="imagem-pao-de-queijo"></div>
       </div>
       <div className='sobre'>
-        <p>Padrões de alimentação e comportamentos também podem influenciar na alimentação como comer sozinho ou acompanhado, assistindo TV ou comer sentado à mesa, mastigação rápida ou lenta tudo isso pode influenciar o modo como você come, qual tipo de alimento é escolhido para determinada refeição e também a quantidade a ser ingerida. </p>
+        <p>Os comportamentos e hábitos também podem influenciar na alimentação, por exemplo, o modo de comer sozinho ou acompanhado, assistindo TV ou comer sentado à mesa, a mastigação rápida ou lenta, ou seja, ou seja, vários fatores podem influenciar no tipo de alimento a ser escolhido para as refeições e também a quantidade a ser ingerida. </p>
       </div>
 
       <div className="container-guia">
@@ -52,9 +51,9 @@ function Home() {
           <div className="imagem-guia"></div>
           <p>
             O guia alimentar é um documento criado pelo Ministério da Saúde e publicado em 2014 que esclarece o que é uma “alimentação adequada e saudável” e mostra o caminho para cada indivíduo adotar escolhas alimentares mais apropriadas, considerando particularidades regionais, etárias, culturais, sociais, econômicas e biológicas.  Com isso, espera-se melhorar os padrões de alimentação e nutrição e contribuir para a promoção da saúde da população. <br />
-            <br /> O guia propõe que os indivíduos tenham um bom relacionamento com a comida através da autonomia alimentar que é o poder de escolhas dos alimentos a partir desse documento e dos conhecimentos adquiridos ao longo da vida.
-            Ele pode ser dividido em 5 partes: princípios, a escolha dos alimentos, a refeição, o ato de comer e a comensalidade e a compreensão e a superação de obstáculos. <br />
-            <br /> A leitura do guia é super simples e rápida e é muito recomendada principalmente para aquelas pessoas que querem se alimentar melhor. Também traz a classificação NOVA dos alimentos a partir da qualidade e grau de processamento deles, que é o conteúdo principal deste site.
+            <br /> O guia propõe que os indivíduos tenham um bom relacionamento com a comida através da autonomia alimentar.
+            Ele pode ser dividido em 5 partes: princípios, a escolha dos alimentos, a refeição, o ato de comer e a comensalidade, compreensão e a superação de obstáculos. <br />
+            <br /> A leitura do guia é super simples e rápida e é muito recomendada principalmente para aquelas pessoas que querem se alimentar melhor. Esse documento também traz a classificação NOVA dos alimentos que foi realizada com base na qualidade e grau de processamento dos alimentos.
             Além disso, o guia alimentar também traz os 10 passos de como ter uma alimentação saudável.
           </p>
         </div>

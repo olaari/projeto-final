@@ -30,8 +30,8 @@ function Classificacao() {
         <p>
           {" "}
           O guia alimentar classifica os alimentos de acordo com o nível do
-          processamento dos alimentos antes de chegar na mesa do consumidor,
-          isso pode influenciar em vários fatores, como nos nutrientes, gosto e
+          processamento que foi realizado antes de chegar na mesa do consumidor. O
+          Processamento pode influenciar em vários fatores, como os nutrientes, gosto e
           sabor, durabilidade, impacto social, etc. Nesse sentido, os alimentos
           podem ser divididos em 4 categorias: Alimentos in natura e minimamente
           processados; ingredientes culinários processados; alimentos
@@ -59,7 +59,7 @@ function Classificacao() {
             partes não comestíveis, fracionamento, moagem, secagem, fermentação,
             pasteurização, refrigeração, congelamento, embalagens e processos
             similares que não envolvam a adição de sal, açúcar, óleos e
-            gorduras. Alguns exemplos são arroz, feijão, leite, graõs(milho,
+            gorduras. Alguns exemplos são: arroz, feijão, leite, graõs(milho,
             soja), trigo, frutas picadas, café, farinhas, etc.
           </p>
           <CarrosselImagens
@@ -72,9 +72,9 @@ function Classificacao() {
           <p>
             Os alimentos in natura e minimamente processados são boas fontes de
             carboidratos, proteínas, vitaminas e minerais. Os alimentos de
-            origem vegetal costumam ser boas fontas de fibra e ter menos
+            origem vegetal costumam ser boas fontas de fibra e ter uma menor
             quantidade de calorias em relação aos de origem animal que costumam
-            ser um pouco mais caloricos por conta da gordura e com baixa
+            ser um pouco mais caloricos por conta da gordura e pela baixa
             quantidade de fibra.
           </p>
           <h4>
@@ -102,13 +102,12 @@ function Classificacao() {
           <p>
             Esses produtos são bastante acessíveis, porém em excesso podem ser
             prejudiciais a saúde. O consumo de elevadas quantidade sódio e de
-            gordura saturada , que estam presentes em óleo e gorduras, podem
+            gordura saturada, que estão presentes em óleo e gorduras, podem
             levar ao aparecimento de doenças crônicas, principalmente aquelas
             relacionadas ao coração. Já o açúcar pode levar ao aparecimento de
             cáries, obesidade, diabetes, etc.
           </p>
           <h4>
-            {" "}
             Por isso, esses alimentos devem ser utilizados com moderação!
           </h4>
         </div>
@@ -116,9 +115,9 @@ function Classificacao() {
           <h3>ALIMENTOS PROCESSADOS</h3>
           <p>
             São alimentos in natura ou minimamente processados com a adição de
-            um ingrediente culinário, como sal, açúcar, óleo ou gordura com
-            objetivo de aumentar a durabilidade desses alimentos e torna-los
-            mais agradáveis ao paladar. Seu processo de fabricação se assemelham
+            um ingrediente culinário, como sal, açúcar, óleo ou gordura que possui o 
+            objetivo de aumentar a durabilidade desses alimentos e torná-los
+            mais agradáveis ao paladar. Seu processo de fabricação se assemelha
             as técnicas culinárias. Geralmente são fabricados pela indústria e
             usualmente consumidos como parte ou acompanhamento de preparações.
             culinárias. Alguns exemplos desses alimentos são: frutas em
@@ -135,14 +134,14 @@ function Classificacao() {
           <p>
             Por conta de ser derivados dos alimentos in natura, muito produtos
             dessa categoria são comercializados como alimentos saudáveis, porém
-            deve-se tomar cuidado pois como eles possuí vários ingredientes
-            culinários como açúcar, gorduras e sódio que podem modificar
-            nutricionalmente esses alimentos.{" "}
+            deve-se tomar cuidado pois, como eles possuí vários ingredientes
+            culinários como açúcar, gorduras e sódio que, podem modificar
+            nutricionalmente esses alimentos.
           </p>
           <h4>
             Os alimentetos processados devem ser utilizados com moderação e
             devem ser consumidos como acompanhamentos dos alimentos in natura e
-            não substítui-los.{" "}
+            não substítui-los.
           </h4>
         </div>
         <div className="caixa-alimentos">
@@ -151,7 +150,7 @@ function Classificacao() {
             São alimentos que passam por diversos processos industriais, com
             adição de sal, açúcar e gorduras para intensificação do sabor,
             mascarar o gosto dos adivivos químicos e para aumentar a
-            durabilidade do tempo de prateleira, além disso recebem grandes
+            durabilidade do tempo de prateleira. Além disso, recebem grandes
             quantidades de substâncias que foram sintetizadas em laboratórios
             como corantes, aromatizantes e realçadores de sabores. A fabricação
             desses produtos geralmente é realizada por grandes indústrias.
@@ -178,15 +177,15 @@ function Classificacao() {
         <h1>Dicas para a leitura da lista de ingredientes dos alimentos</h1>
         <p>
           Quando você vai ao mercado costuma ter a lista de alimento? Você sabe
-          o que é lista de alimentos? Compara os alimentos de diferentes marcas?
-        </p>{" "}
+          o que é lista de alimentos? Compara os mesmo alimentos de diferentes marcas?
+        </p>
         <br />
 
         <p>
-          {" "}
+          
           Praticamente todos os alimentos industrializados possuem rótulos que é
           uma importante fonte de comunicação entre consumidor e produto. Lá,
-          contém várias informações como nome do alimento, gramagem, porções,
+          contém várias informações, como nome do alimento, gramagem, porções,
           valor nutricional, etc. Geralmente, na parte de trás do rótulo é onde
           fica as informações nutricionais e é nela que você deve deve ficar de
           olho na hora de comprar os alimentos. É nessa região que fica
@@ -250,6 +249,9 @@ function Classificacao() {
             formulações de alimentos, porém não deixa de ser mais um tipo de
             açúcar que em excesso pode levar ao desenvolvimento de doenças
             crônicas.
+          </p>
+          <p className="dicas-listas">
+            DICA: Caso tenha alguma alergia alimentar, verifique cuidadosamente o rótulo para ver se não tem que pode te causar alergia. Muitas vezes no momento da fabricação do produto pode ocorrer a contaminação cruzada e consequentemente levar ao aparecimento de sintomas a quem tem alergia a determinados ingredientes.
           </p>
         </div>
       </div>
