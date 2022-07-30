@@ -14,7 +14,7 @@ function MaisDicas() {
                     <h3>Leia o Guia Alimentar para a População Brasileira</h3>
                     <p>Essa página foi baseada no guia alimentar para a população brasileira, que é um documento criado pelo Ministério da Saúde e publicado em 2014 que esclarece o que é uma “alimentação adequada e saudável” e mostra o caminho para cada indivíduo adotar escolhas alimentares mais apropriadas, considerando particularidades regionais, etárias, culturais, sociais, econômicas e biológicas. Com isso, espera-se melhorar os padrões de alimentação e nutrição e contribuir para a promoção da saúde da população. </p>
                     <a href="https://bvsms.saude.gov.br/bvs/publicacoes/guia_alimentar_populacao_brasileira_2ed.pdf" target="blank" >Guia Alimentar</a>
-                    <img src="https://www. fsp.usp.br/nupens/wp-content/uploads/2019/07/Screen-Shot-2019-07-04-at-15.52.25-1-360x468.png" alt="" />
+                    <img src="https://www.fsp.usp.br/nupens/wp-content/uploads/2019/07/Screen-Shot-2019-07-04-at-15.52.25-1-360x468.png" alt="" />
                 </div>
 
                 <div className="card-dicas">
