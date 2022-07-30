@@ -5,7 +5,7 @@ import Home from "../pages/Home/Home";
 import Menu from "../components/Menu/Menu";
 import Footer from "../components/Footer/Footer";
 import PaginaQuiz from "../pages/Quiz/PaginaQuiz.jsx";
-import MaisDicas from "../pages/Mais-dicas/maisdicas";
+import MaisDicas from "../pages/MaisDicas/MaisDicas";
 
 function ApplicationRoutes() {
   return (

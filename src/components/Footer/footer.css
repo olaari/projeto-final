@@ -1,7 +1,33 @@
 .texto-footer {
-  text-align: center;
+  margin: 0 auto;
   background-color: #b0d3f1;
   color: white;
   padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
 }
-  
+
+
+.caixa-links {
+  width: 40%;
+  height: 50%;
+  display: flex;
+}
+
+.links {
+  width: 10%;
+  border: 1px solid;
+  text-decoration: none;
+  color: white;
+  border: 1px solid;
+  margin: 0.5rem;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.icone {
+  /* width: 30%; */
+  height: 20%;
+  margin-top: 0.5rem;
+  align-items: center;
+}
