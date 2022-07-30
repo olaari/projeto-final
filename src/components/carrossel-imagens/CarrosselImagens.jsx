@@ -4,7 +4,7 @@ function CarrosselImagens(props) {
     return (
         <div className="carrossel" >
             {props.images.map(
-                ({ src, alt,}) => <div> <img src={src} alt={alt} /></div>
+                ({ src, alt,}) => <div key={alt}> <img src={src} alt={alt} /></div>
             )}
         </div>
     )

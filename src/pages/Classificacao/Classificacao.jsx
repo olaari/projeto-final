@@ -78,7 +78,7 @@ function Classificacao() {
             quantidade de fibra.
           </p>
           <h4>
-            A combinação dos alimentos desse grupo representam a base para uma
+            A combinação dos alimentos desse grupo representa a base para uma
             alimentação adequada.
           </h4>
         </div>

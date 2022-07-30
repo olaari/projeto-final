@@ -1,33 +1,26 @@
-.texto-footer {
-  margin: 0 auto;
-  background-color: #b0d3f1;
-  color: white;
-  padding: 0.5rem;
-  display: flex;
-  flex-direction: row;
+.main-footer {
+    margin: 0 auto;
+    background-color: #B0D3F1;
+    color: white;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-
-.caixa-links {
-  width: 40%;
-  height: 50%;
-  display: flex;
+.link-contato {
+    height: 30px;
+    width: 30px;
+    margin: 0 0.3rem;
 }
 
-.links {
-  width: 10%;
-  border: 1px solid;
-  text-decoration: none;
-  color: white;
-  border: 1px solid;
-  margin: 0.5rem;
-  border-radius: 20px;
-  align-items: center;
+.link-contato.github {
+    background: url("../../assets/github.png") no-repeat center;
+    background-size: contain;
 }
 
-.icone {
-  /* width: 30%; */
-  height: 20%;
-  margin-top: 0.5rem;
-  align-items: center;
+.link-contato.linkedin {
+    background: url("../../assets/in.png") no-repeat center;
+    background-size: contain;
 }
