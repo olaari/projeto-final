@@ -8,7 +8,7 @@ function Menu() {
         { rota: "/", nome: "Home" },
         { rota: "/classificacao", nome: "Classificação" },
         { rota: "/quiz", nome: "Quiz" },
-        { rota: "/contatos", nome: "Contatos" },
+        { rota: "/maisdicas", nome: "Mais Dicas" },
       ].map(({ rota, nome }) => (
         <Link key={rota} className="link" to={rota}>
           {nome}

@@ -1,7 +1,11 @@
-import "./contatos.css"
-function Contatos() {
+import "./maisdicas.css"
+function MaisDicas() {
     return (
         <>
+            <div className="background-mais-dicas">
+                {/* <img className="rotulo-alimento" src={rotuloAlimento}></img> */}
+                <div className="background-foto-dicas"></div>
+            </div>
             <div className="main-outras-dicas">
                 <h1>Outras dicas</h1>
                 <div className="card-dicas">
@@ -22,7 +26,7 @@ function Contatos() {
                     <h3> Assista o vídeo: Os rótulos estão gritando a mensagem errada</h3>
                     <p>Esse vídeo mostra a relação entre as embalagens do produtos e a dificuldades dos consumidores para achar e ler as informações nutricionais dos alimentos. </p>
                     <div className="video-flex">
-                    <iframe className="videos-dicas" width="560" height="315" src="https://www.youtube.com/embed/bLVMocEcsU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe className="videos-dicas" width="560" height="315" src="https://www.youtube.com/embed/bLVMocEcsU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
 
@@ -41,4 +45,4 @@ function Contatos() {
 
 }
 
-export default Contatos
+export default MaisDicas
