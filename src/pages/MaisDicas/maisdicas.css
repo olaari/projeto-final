@@ -23,7 +23,7 @@ div.background-foto-dicas {
     margin: 0 auto;
     position: absolute;
     left: 0;
-    right:0;
+    right: 0;
     bottom: 10%;
 }
 
@@ -101,5 +101,12 @@ div.background-foto-dicas {
         border-radius: 10px;
     }
 
+
+}
+
+@media screen and (max-width:470px) {
+    .card-dicas>h3 {
+        font-size: 18px;
+    }
 
 }
